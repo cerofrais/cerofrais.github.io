@@ -1,6 +1,6 @@
 # Page settings
 
-baseURL = "http://example.org/"
+baseURL = "https://cerofrais.github.io/webresume/"
 languageCode = "en"
 title = ""
 theme = "hugo-devresume-theme"
@@ -12,8 +12,8 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 
 [params]
-    author = "CowboySmall"
-    description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
+    author = "V. V. Sri Harsha"
+    description = "Profile page for Harsha"
 
 
     primaryColor = "#54B689"
@@ -24,9 +24,9 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.profile]
         enable = true
-        name = "Simon Doe"
-        tagline = "Senior Software Engineer"
-        avatar = "avatar.png"
+        name = "Vemuluru Venkata Sri Harsha"
+        tagline = "Data Scientist @GEP"
+        avatar = "avatar.jpg"
 
 
 
@@ -36,16 +36,16 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.contact]
         enable = true
-        location = "New York"
+        location = "Hyderabad"
 
         [[params.contact.list]]
         icon = "fas fa-phone-square"
         url = "tel:#"
-        text = "0123 4567 890"
+        text = "+91 89787 77689"
         [[params.contact.list]]
         icon = "fas fa-envelope-square"
         url = "mailto:#"
-        text = "simon.doe@yourwebsite.com"
+        text = "harsha.vemuluru@gmail.com"
         [[params.contact.list]]
         icon = "fas fa-globe"
         url = "#"
@@ -63,13 +63,11 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.skills.list]]
         title = "Technical"
         [[params.skills.list.items]]
-        details = "JavaScript/Angular/React/Vue"
-        [[params.skills.list.items]]
-        details = "Python/Ruby/PHP"
+        details = "Python/Matlab"
         [[params.skills.list.items]]
         details = "Node.js/ASP.NET"
         [[params.skills.list.items]]
-        details = "PostgreSQL/MySQL"
+        details = "Basic SQL, MongoDB"
         [[params.skills.list.items]]
         details = "Object-oriented design"
         [[params.skills.list.items]]
@@ -78,15 +76,20 @@ googleAnalytics = "UA-XXXXXXX-Y"
         details = "Lead and deliver complex software systems"
 
         [[params.skills.list]]
-        title = "Professional"
+        title = "Software"
         [[params.skills.list.items]]
-        details = "Effective communication"
+        details = "Python Dev"
         [[params.skills.list.items]]
-        details = "Team player"
+        details = "Scipy/Pandas/Matplotlib"
         [[params.skills.list.items]]
-        details = "Strong problem solver"
+        details = "Pytorch/Tensorflow"
         [[params.skills.list.items]]
-        details = "Good time management"
+        details = "Flask Web Dev"
+        [[params.skills.list.items]]
+        details = "Azure Machine Learning"
+        [[params.skills.list.items]]
+        details = "Azure Devops"
+
 
 
 
