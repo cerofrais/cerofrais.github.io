@@ -1,6 +1,6 @@
 # Page settings
 
-baseURL = "https://cerofrais.github.io/webresume/"
+baseURL = "https://cerofrais.github.io/"
 languageCode = "en"
 title = ""
 theme = "hugo-devresume-theme"
@@ -89,6 +89,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         details = "Azure Machine Learning"
         [[params.skills.list.items]]
         details = "Azure Devops"
+
 
 
 
