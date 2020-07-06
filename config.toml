@@ -1,6 +1,6 @@
 # Page settings
 
-baseURL = "https://cerofrais.github.io/"
+baseURL = "https://cerofrais.github.io/public"
 languageCode = "en"
 title = ""
 theme = "hugo-devresume-theme"
