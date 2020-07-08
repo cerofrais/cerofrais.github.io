@@ -274,18 +274,13 @@ googleAnalytics = "UA-XXXXXXX-Y"
     [params.projects]
         enable = true
 
-        [[params.projects.list]]
-        title = "Reverse Image Search (October 2018 - December 2018)"
+       
+         [[params.projects.list]]
+        title = "Item Master Data Management (Jan 2020 - Current)"
         meta = "Open Source"
-        url = "//google.com"
-        tagline = "Given an image, find similar images in the database of images."
-        text = "Deep Learning using Keras, Transfer learning, CNN, Object-detection and Image Classification, KNN for Finding closest images"
-        [[params.projects.list.items]]
-        details = "Used pre-trained Res-net 50 architecture to encode the images, Used Modified K-nearest neighbor to find the images for the recommendation."
-        [[params.projects.list.items]]
-        details = "Used classification models to decrease false-positive rate and object detection (Yolo) to identify multiple objects from one image and recommend accordingly."
-        [[params.projects.list.items]]
-        details = "Deployed the entire project with Models as an API and made it as a framework to update the database."
+        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+
+
 
         [[params.projects.list]]
         title = "Contracts Meta Data Extraction (January 2019 - Current)"
@@ -309,19 +304,82 @@ googleAnalytics = "UA-XXXXXXX-Y"
         details = "Engineered Tables extraction and structure maintenance from scanned documents after OCR."
 
 
+        [[params.projects.list]]
+        title = "Reverse Image Search (October 2018 - December 2018)"
+        meta = "Open Source"
+        url = "//google.com"
+        tagline = "Given an image, find similar images in the database of images."
+        text = "Deep Learning using Keras, Transfer learning, CNN, Object-detection and Image Classification, KNN for Finding closest images"
+        [[params.projects.list.items]]
+        details = "Used pre-trained Res-net 50 architecture to encode the images, Used Modified K-nearest neighbor to find the images for the recommendation."
+        [[params.projects.list.items]]
+        details = "Used classification models to decrease false-positive rate and object detection (Yolo) to identify multiple objects from one image and recommend accordingly."
+        [[params.projects.list.items]]
+        details = "Deployed the entire project with Models as an API and made it as a framework to update the database."
 
 
         [[params.projects.list]]
-        title = "Item Master Data Management"
-        meta = "Open Source"
-        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
+        title = "Kaggle - Retail case study (May 2018 - May 2018)"
+        meta = "leaderboard"
+        url = "//www.kaggle.com/c/retailcasestudy/leaderboard"
+        tagline = "Given Sale or revenue of previous years of a US-based retailer forecast the sales for next year."
+        text = "Implemented Linear, Polynomial regression, LSTM (RNN) and Decision tree regression with combining Macroeconomic, weather data along with the given data. Preformed grid search for hyperparameter tuning. "
+        [[params.projects.list.items]]
+        details = "Ranked 2/93, Won Gold for getting the lowest RMS error"
 
 
+        [[params.projects.list]]
+        title = "Projects/POC at AlogLeap (June 2018 - September 2018)"
+        meta = ""
+        url = ""
+        tagline = "Designed, Built and Deployed multiple POC's, working prototypes in very short time to demo for clients"
+        text = "YOLO - CNN, RNN, chatbots "
+        [[params.projects.list.items]]
+        details = "Setup a matter most server on an AWS EC2 instance, deployed 3 different chatbots, which can be triggered in a group chat"
+        [[params.projects.list.items]]
+        details = "Trained an RNN based question and non-question classifier using the SQUAD dataset which is used to automate the questions extraction from a chat transcript."
+        [[params.projects.list.items]]
+        details = "Built a real-time dashboard using dash plotly which shows the graphs and counts of people and vehicles."
+        [[params.projects.list.items]]
+        details = "Built a YOLO based object detection model to analyze the CCTV footage at a gate and count people, vehicles going IN-OUT"
 
+        [[params.projects.list]]
+        title = "Academic - Laser Scanning System (Jan 15 to Mar 15)"
+        meta = ""
+        url = ""
+        tagline = "Designed, built and tested the prototype of a laser range finder for detecting breakthroughs in underwater boreholes (Subsea level). "
+        text = "Used CMU camera for object detection, Arduino microcontroller, Matlab for real-time 3D visualization, and designed a Solid works CAD model."
+        [[params.projects.list.items]]
+        details = "Master's Project"
 
+        [[params.projects.list]]
+        title = "Academic - Educational Line Follower(Aug 13 to Dec 13 )"
+        meta = ""
+        url = ""
+        tagline = "we designed and made a line follower robot with an option to various control parameters in PID system."
+        text = "Worked on Arduino Microcontroller, Tuned PID control parameters."
+        [[params.projects.list.items]]
+        details = "Used to demonstrate the performace of a system with varying P,I,D values"
+        [[params.projects.list.items]]
+        details = "Master's sem Project"
 
+        [[params.projects.list]]
+        title = "Academic - Autonomous Biped Robot (Jan 12 to May 12)"
+        meta = ""
+        url = ""
+        tagline = "Built a Biped robot using servo motors and Arduino."
+        text = "Solidworks, Arduino"
+        [[params.projects.list.items]]
+        details = "Programmed and used Arduino board to control servo motors, used Solidworks application for designing the links, performed structural analysis of Biped"
 
-
+        [[params.projects.list]]
+        title = "Academic - Mech Rubik’s Cube Solver (May 09 to Sep 09)"
+        meta = "certificate"
+        url = "//home.iitj.ac.in/~harsha/bestproj.html"
+        tagline = "we designed, engineered and assembled the working model of a machine, which replicates the three-hand motions through which RUBIK’S cubes are solved.               "
+        text = "Expert with Lathe, Milling, CNC, Cutting and Drilling Machines tools."
+        [[params.projects.list.items]]
+        details = "This project was awarded the best project in the class by IIT Kanpur."
 
 
 
@@ -336,10 +394,13 @@ googleAnalytics = "UA-XXXXXXX-Y"
         details = "2016 · Sed Fringilla"
 
         [[params.information.list]]
-        title = "Interests"
-        details = "Climbing, Snowboarding, Photography, Travelling"
+        title = "Course work"
+        details = "CS231n, CS224n, Advanced Engineering Mathematics, Discrete Mathematics, Robotics, Modern Control Systems, Linear Algebra, Probability, Mechatronics, Dynamic systems, Inverse kinematics."
 
 
+        [[params.information.list]]
+        title = "Mini Projects based on Arduino"
+        details = "Rock-paper-scissors (Ultrasonic sensor, LCD screen, Servo motors), Go for green(Used Ir sensors and LEDs), obstacle avoiding robot (Ultrasonic), Step lights(pressure sensors, LED’s), Robotic Arm (3 Servo motors)."
 
 
 
@@ -359,8 +420,12 @@ googleAnalytics = "UA-XXXXXXX-Y"
         title = "sriharshaiitj08"
         [[params.social.list]]
         icon = "fab fa-twitter-square"
-        url = "//twitter.com/username"
+        url = "//twitter.com/@harsha_iitj08"
         title = "@harsha_iitj08"
+        [[params.social.list]]
+        icon = "fab fa-stack-overflow"
+        url = "//stackoverflow.com/users/10656943/cerofrais"
+        title = "cerofrais"
 
 
 
