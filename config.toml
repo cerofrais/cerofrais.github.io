@@ -230,7 +230,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         title = "Data Scientist"
         dates = "2018 - Present"
         company = "GEP, Hyderabad, Telangana"
-        details = "Better description goes here :) "
+        tagline = "Worked as full stack data scientist/ Machine Learning Engineer handling end to end Machine learning and Engineering tasks in multiple projects."
         [[params.experience.list.items]]
         details = "Developed and trained machine learning models to solve problems in the procurement space."
         [[params.experience.list.items]]
@@ -244,10 +244,11 @@ googleAnalytics = "UA-XXXXXXX-Y"
         title = "Data Scientist"
         dates = "May 18 - Oct 18 "
         company = "Algoleap Technologies, Hyderabad"
+        tagline = "Worked as Data scientist and Python Developer building multiple Proof of concepts across domains such as NLP, Image Processing which bought business to the startup."
         [[params.experience.list.items]]
         details = "Designed, programmed and deployed multiple chatbots (Keyword based, script-based, FAQ/Intelligent string matching based) using python in the chat platform."
         [[params.experience.list.items]]
-        details = "Pre-processed data, coded RNN based deep learning models for question and Non- question detection, neural question generations as a part of response generator, trained and tuned the models for better accuracy and generalization."
+        details = "Pre-processed data, coded RNN based deep learning models for question and Non- question detection, trained and tuned the models for better accuracy and generalization."
         [[params.experience.list.items]]
         details = "Configured, deployed an open-source chat platform (Mattermost) on Amazon web services"
         [[params.experience.list.items]]
@@ -258,6 +259,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         title = "Robotics and Engineering Teacher"
         dates = "August 2015 - August 2017"
         company = "Quarrylane School,Dublin,CA"
+        tagline = "Worked as Teacher, teaching engineering, programming multiple classes and Robotics Instructor for multiple Robtics teams guiding them win multiple competitions leading to worlds stage"
         [[params.experience.list.items]]
         details = "Taught Robotics, Programming, and engineering to middle and high school."
         [[params.experience.list.items]]
@@ -277,16 +279,30 @@ googleAnalytics = "UA-XXXXXXX-Y"
        
          [[params.projects.list]]
         title = "Item Master Data Management (Jan 2020 - Current)"
-        meta = "Open Source"
-        tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
-
+        meta = ""
+        tagline = "To solve master data management problem with Machine learning in different stages. Key challenge is to do Item duplicate detection, Category (noun modifier) Identification, Attribute extraction on item description (short text)"
+        text = "Elastic search, mongo db, Azure Web-app, Azure storage tables, Azure Data Factory, Support Vector Machine, Named Entity Recognition, POC on LUIS"
+        [[params.projects.list.items]]
+        details = "Built Azure data factory pipelines run batch job on millions of rows."
+        [[params.projects.list.items]]
+        details = "Built feedback loop for extraction alogo to updated extraction regex based on user decisions "
+        [[params.projects.list.items]]
+        details = "Started with simple SVM classifier for Category detection and upgraded to deep learning based(embeddings training) semi-supervised identifier"
+        [[params.projects.list.items]]
+        details = "Trained a custom NER attribute extracter "
+        [[params.projects.list.items]]
+        details = "Improved master data search to give better contextual  results by identifying parts of search query"
+        [[params.projects.list.items]]
+        details = "Designed, built CICD pipelines for ease development and deployment."
+        [[params.projects.list.items]]
+        details = "As a part of supplier details validation, implemented all rules to validate the details using python. Also implemeted realtime address validation using google API"
 
 
         [[params.projects.list]]
         title = "Contracts Meta Data Extraction (January 2019 - Current)"
         meta = "Open Source"
         url = ""
-        tagline = "To extract metadata, clauses from scanned, signed contracts."
+        tagline = "To automate extraction of metadata, clauses from scanned, signed contracts. which helped in reducing the manual efforts of internal team by more than 30 %. Which was then productized so it can be used directly by clients ."
         text = "py-tesseract, Azure web-app for containers, Azure DevOps pipelines, Azure cognitive services, Keras, Docker, Flask, CNN, RNN, Decision trees, Mongodb (Azure Cosmos DB), Azure tables services, Azure blob storage."
         [[params.projects.list.items]]
         details = "Trained Image classification model using CNN to identify different types of pages in contracts."
@@ -297,7 +313,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.projects.list.items]]
         details = "Developed and trained a multi-class sentence classifier for identifying types of clauses in a contract."
         [[params.projects.list.items]]
-        details = "Deployed and maintained APIs to extract metadata using all these machine learning models."
+        details = "Built, Deployed and maintained APIs to extract metadata using all these machine learning models."
         [[params.projects.list.items]]
         details = "Designed, built CICD pipelines for ease development and deployment, Designed and built an automated feedback mechanism to train and deploy models automatically."
         [[params.projects.list.items]]
