@@ -300,7 +300,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
         [[params.projects.list]]
         title = "Contracts Meta Data Extraction (January 2019 - Current)"
-        meta = "Open Source"
+        meta = ""
         url = ""
         tagline = "To automate extraction of metadata, clauses from scanned, signed contracts. which helped in reducing the manual efforts of internal team by more than 30 %. Which was then productized so it can be used directly by clients ."
         text = "py-tesseract, Azure web-app for containers, Azure DevOps pipelines, Azure cognitive services, Keras, Docker, Flask, CNN, RNN, Decision trees, Mongodb (Azure Cosmos DB), Azure tables services, Azure blob storage."
@@ -402,12 +402,6 @@ googleAnalytics = "UA-XXXXXXX-Y"
     [params.information]
         enable = true
 
-        [[params.information.list]]
-        title = "Papers"
-        [[params.information.list.items]]
-        details = "2018 · Lorem Ipsum"
-        [[params.information.list.items]]
-        details = "2016 · Sed Fringilla"
 
         [[params.information.list]]
         title = "Course work"
