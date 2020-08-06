@@ -155,7 +155,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         body = "Coursera"
         date = "2016"
         license = "NL6WHASAYMGV"
-        link = "//www.linkedin.com/redir/redirect?url=https%3A%2F%2Fwww%2Ecoursera%2Eorg%2Faccount%2Faccomplishments%2Fverify%2FFCZBR83W3HLL&urlhash=MjvT&trk=public_profile_see-credential"
+        link = "//www.linkedin.com/redir/redirect?url=https%3A%2F%2Fwww%2Ecoursera%2Eorg%2Faccount%2Faccomplishments%2Fverify%2FNL6WHASAYMGV&urlhash=MjvT&trk=public_profile_see-credential"
         [[params.certi.list]]
         name = "Using Python to Access Web Data" 
         body = "Coursera"
@@ -345,7 +345,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 
         [[params.projects.list]]
-        title = "Projects/POC at AlogLeap (June 2018 - September 2018)"
+        title = "Projects/POC at AlgoLeap (June 2018 - September 2018)"
         meta = ""
         url = ""
         tagline = "Designed, Built and Deployed multiple POC's, working prototypes in very short time to demo for clients"
