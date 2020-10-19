@@ -88,7 +88,21 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 
 
-
+    [params.patents]
+        enable = true
+         [[params.patent.list]]
+        name = "Inventor: Contract LifeCycle Management" 
+        body = "Owner: GEP"
+        date = " DEC 2019"
+        license = "App num: 16/726998 "
+        link = "https://drive.google.com/file/d/15b_vZEKR50HDdnNcnJxqITMtrnEStNGu/view?usp=sharing"
+         [[params.patent.list]]
+        name = "Inventor: Data Processing and Classification" 
+        body = "Owner: GEP"
+        date = "FEB 2020"
+        license = "App num: 16/714947"
+        link = "https://drive.google.com/file/d/1vk8wLiy2zauUks8Q7eEPbv7i_DNGA_w-/view?usp=sharing"
+        
 
 
 
@@ -214,7 +228,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.summary]
         enable = true
-        text = "Futuristic engineer with 2+ years of experience as a data scientist looking to fuel my fervent passion for technology by developing next-generation, data-driven solutions to increase efficiency and accuracy of systems. "
+        text = "Futuristic engineer with 2+ years of experience as a data scientist looking to fuel my fervent passion for technology by developing next-generation, data-driven solutions to increase efficiency and accuracy of systems. Capable of working in highly challenging and demanding environments, utilizing my skills and knowledge to be the best of my abilities and contribute positively to the growth of the organization."
 
 
 
@@ -228,7 +242,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
         [[params.experience.list]]
         title = "Data Scientist"
-        dates = "2018 - Present"
+        dates = "Oct 2018 - Oct 2020"
         company = "GEP, Hyderabad, Telangana"
         tagline = "Worked as full stack data scientist/ Machine Learning Engineer handling end to end Machine learning and Engineering tasks in multiple projects."
         [[params.experience.list.items]]
@@ -278,7 +292,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
        
          [[params.projects.list]]
-        title = "Item Master Data Management (Jan 2020 - Current)"
+        title = "Item Master Data Management (Jan 2020 - Oct 2020)"
         meta = ""
         tagline = "To solve master data management problem with Machine learning in different stages. Key challenge is to do Item duplicate detection, Category (noun modifier) Identification, Attribute extraction on item description (short text)"
         text = "Elastic search, mongo db, Azure Web-app, Azure storage tables, Azure Data Factory, Support Vector Machine, Named Entity Recognition, POC on LUIS"
@@ -299,7 +313,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 
         [[params.projects.list]]
-        title = "Contracts Meta Data Extraction (January 2019 - Current)"
+        title = "Contracts Meta Data Extraction (Jan 2019 - Oct 2020)"
         meta = ""
         url = ""
         tagline = "To automate extraction of metadata, clauses from scanned, signed contracts. which helped in reducing the manual efforts of internal team by more than 30 %. Which was then productized so it can be used directly by clients ."
@@ -324,7 +338,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         title = "Reverse Image Search (October 2018 - December 2018)"
         meta = "Open Source"
         url = "//google.com"
-        tagline = "Given an image, find similar images in the database of images."
+        tagline = "Given an image, Detect known objects in the image and find similar images in the database of images."
         text = "Deep Learning using Keras, Transfer learning, CNN, Object-detection and Image Classification, KNN for Finding closest images"
         [[params.projects.list.items]]
         details = "Used pre-trained Res-net 50 architecture to encode the images, Used Modified K-nearest neighbor to find the images for the recommendation."
