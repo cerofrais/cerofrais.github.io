@@ -25,7 +25,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
     [params.profile]
         enable = true
         name = "Vemuluru Venkata Sri Harsha"
-        tagline = "Data Scientist / Machine Learning Engineer @GEP"
+        tagline = "Data Scientist at Jio"
         avatar = "avatar.jpg"
 
 
@@ -239,6 +239,12 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.experience]
         enable = true
+
+        [[params.experience.list]]
+        title = "Data Scientist"
+        dates = "Nov 2020 - Present"
+        company = "Jio, Hyderabad, Telangana"
+        tagline = "Working as a Data Scientist solving problems in Healthcare NLP and settingup ML framework."
 
         [[params.experience.list]]
         title = "Data Scientist"
