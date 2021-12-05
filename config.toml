@@ -245,6 +245,17 @@ googleAnalytics = "UA-XXXXXXX-Y"
         dates = "Nov 2020 - Present"
         company = "Jio, Hyderabad, Telangana"
         tagline = "Working as a Data Scientist solving problems in Healthcare NLP and settingup ML framework."
+        [[params.experience.list.items]]
+        details = "Designed, developed and deployed an end to end article recommendation system."
+        [[params.experience.list.items]]
+        details = "Designed a devoped entity disambiguation model which can identify medical entities from free text.(Pretrained ML models and look up based)."
+        [[params.experience.list.items]]
+        details = "Benchmarked performance of Habana (Intel goya card) w.r.t nvidia by running multiple ML models(X-ray classification, article classification) ."
+        [[params.experience.list.items]]
+        details = "Designed, deployed and maintained infra,CICD pipelines for OCR project which extracts meta data from diagnostic reports"
+        [[params.experience.list.items]]
+        details = "POC's for article classifier, Benchmarked different OCR's. "
+        
 
         [[params.experience.list]]
         title = "Data Scientist"
