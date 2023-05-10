@@ -5,10 +5,6 @@
     <link>https://cerofrais.github.io/public/tags/</link>
     <description>Recent content in Tags on Harsha V</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    
-	<atom:link href="https://cerofrais.github.io/public/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en</language><atom:link href="https://cerofrais.github.io/public/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
