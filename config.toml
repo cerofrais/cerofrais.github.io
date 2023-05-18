@@ -85,13 +85,13 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.patents]
         enable = true
-         [[params.patent.list]]
+        [[params.patent.list]]
         name = "Inventor: Contract LifeCycle Management" 
         body = "Owner: GEP"
         date = " DEC 2019"
         license = "App num: 16/726998 "
         link = "https://drive.google.com/file/d/15b_vZEKR50HDdnNcnJxqITMtrnEStNGu/view?usp=sharing"
-         [[params.patent.list]]
+        [[params.patent.list]]
         name = "Inventor: Data Processing and Classification" 
         body = "Owner: GEP"
         date = "FEB 2020"
@@ -286,7 +286,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
         [[params.experience.list]]
         title = "Robotics and Engineering Teacher"
-        dates = "August 2015 - August 2017"
+        dates = "Aug 15 - Aug 17"
         company = "Quarrylane School,Dublin,CA"
         tagline = "Worked as Teacher, teaching engineering, programming multiple classes and Robotics Instructor for multiple Robtics teams guiding them win multiple competitions leading to worlds stage"
         [[params.experience.list.items]]
@@ -304,9 +304,16 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.projects]
         enable = true
-
+        [[params.projects.list]]
+        title = "Article Recommendation System (Jan 2020 - Oct 2020)"
+        meta = ""
+        tagline = "To solve master data management problem with Machine learning in different stages. Key challenge is to do Item duplicate detection, Category (noun modifier) Identification, Attribute extraction on item description (short text)"
+        text = "Elastic search, mongo db, Azure Web-app, Azure storage tables, Azure Data Factory, Support Vector Machine, Named Entity Recognition, POC on LUIS"
+        [[params.projects.list.items]]
+        details = "Built Azure data factory pipelines run batch job on millions of rows."
        
-         [[params.projects.list]]
+       
+        [[params.projects.list]]
         title = "Item Master Data Management (Jan 2020 - Oct 2020)"
         meta = ""
         tagline = "To solve master data management problem with Machine learning in different stages. Key challenge is to do Item duplicate detection, Category (noun modifier) Identification, Attribute extraction on item description (short text)"
@@ -350,9 +357,9 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 
         [[params.projects.list]]
-        title = "Reverse Image Search (October 2018 - December 2018)"
+        title = "Reverse Image Search (Oct 2018 - Dec 2018)"
         meta = "Open Source"
-        url = "//google.com"
+        url = ""
         tagline = "Given an image, Detect known objects in the image and find similar images in the database of images."
         text = "Deep Learning using Keras, Transfer learning, CNN, Object-detection and Image Classification, KNN for Finding closest images"
         [[params.projects.list.items]]
@@ -374,7 +381,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 
         [[params.projects.list]]
-        title = "Projects/POC at AlgoLeap (June 2018 - September 2018)"
+        title = "Projects/POC at AlgoLeap (June 2018 - Sep 2018)"
         meta = ""
         url = ""
         tagline = "Designed, Built and Deployed multiple POC's, working prototypes in very short time to demo for clients"
@@ -389,7 +396,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         details = "Built a YOLO based object detection model to analyze the CCTV footage at a gate and count people, vehicles going IN-OUT"
 
         [[params.projects.list]]
-        title = "Academic - Laser Scanning System (Jan 15 to Mar 15)"
+        title = "Academic - Laser Scanning System (Jan 15 - Mar 15)"
         meta = ""
         url = ""
         tagline = "Designed, built and tested the prototype of a laser range finder for detecting breakthroughs in underwater boreholes (Subsea level). "
@@ -398,7 +405,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         details = "Master's Project"
 
         [[params.projects.list]]
-        title = "Academic - Educational Line Follower(Aug 13 to Dec 13 )"
+        title = "Academic - Educational Line Follower(Aug 13 - Dec 13)"
         meta = ""
         url = ""
         tagline = "we designed and made a line follower robot with an option to various control parameters in PID system."
@@ -409,7 +416,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         details = "Master's sem Project"
 
         [[params.projects.list]]
-        title = "Academic - Autonomous Biped Robot (Jan 12 to May 12)"
+        title = "Academic - Autonomous Biped Robot (Jan 12 - May 12)"
         meta = ""
         url = ""
         tagline = "Built a Biped robot using servo motors and Arduino."
@@ -418,7 +425,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         details = "Programmed and used Arduino board to control servo motors, used Solidworks application for designing the links, performed structural analysis of Biped"
 
         [[params.projects.list]]
-        title = "Academic - Mech Rubik’s Cube Solver (May 09 to Sep 09)"
+        title = "Academic - Mech Rubik’s Cube Solver (May 09 - Sep 09)"
         meta = "certificate"
         url = "//home.iitj.ac.in/~harsha/bestproj.html"
         tagline = "we designed, engineered and assembled the working model of a machine, which replicates the three-hand motions through which RUBIK’S cubes are solved.               "
