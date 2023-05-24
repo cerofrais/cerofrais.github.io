@@ -101,9 +101,6 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 
 
-
-
-
     [params.education]
         enable = true
 
@@ -304,14 +301,71 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.projects]
         enable = true
+
         [[params.projects.list]]
-        title = "Article Recommendation System (Jan 2020 - Oct 2020)"
+        title = "Smart Camera System (July 2022 - May 2023)"
         meta = ""
-        tagline = "To solve master data management problem with Machine learning in different stages. Key challenge is to do Item duplicate detection, Category (noun modifier) Identification, Attribute extraction on item description (short text)"
-        text = "Elastic search, mongo db, Azure Web-app, Azure storage tables, Azure Data Factory, Support Vector Machine, Named Entity Recognition, POC on LUIS"
+        tagline = "To make the reactive cctv cameras proactive using a event driven system which runs the Ml algorithms on edge device and raise events."
+        text = "AWS cloud ec2, ecs ,lambda, cloudfront, cognito,Dynamodb, RDS kinesis video stream, iot Core, grpc, tensorRT, YOLO"
         [[params.projects.list.items]]
-        details = "Built Azure data factory pipelines run batch job on millions of rows."
-       
+        details = "Developed an end-to-end system encompassing a user-accessible web application built with Next.js, a cloud infrastructure hosted on AWS, backend APIs implemented in Python, and edge software utilizing GRPC modules."
+        [[params.projects.list.items]]
+        details = "Designed and implemented the cloud infrastructure on AWS, utilizing services such as EC2, S3, and RDS to ensure scalability, security, and reliability"
+        [[params.projects.list.items]]
+        details = "Developed robust and efficient backend APIs using Python, enabling seamless data flow between the web application and the cloud components."
+        [[params.projects.list.items]]
+        details = "Ensured end-to-end security and data privacy by implementing encryption protocols and access controls across the system."
+
+
+        [[params.projects.list]]
+        title = "IOT Sensor Data Pipeline (May 2022 - July 2022)"
+        meta = ""
+        tagline = "To build a dashboard to show the realtime data produced by multiple IOT sensors and apply a anomaly detection alogritm on the data to detect and show anomalies in time series data."
+        text = "AWS EC2, Kinesis datahose, data stream, Athena DB on S3, Grafana for dashboarding, lambda, Autoencoders"
+        [[params.projects.list.items]]
+        details = "Developed and deployed an efficient data pipeline to capture real-time data from IoT sensors and process it for analysis."
+        [[params.projects.list.items]]
+        details = "Implemented a seamless integration between IoT devices and the pipeline, ensuring reliable and continuous data ingestion."
+        [[params.projects.list.items]]
+        details = "Designed a scalable architecture to store the raw sensor data in Amazon S3, enabling cost-effective and durable storage."
+        [[params.projects.list.items]]
+        details = "Leveraged AWS Athena to perform ad-hoc queries directly on the raw data stored in S3, providing real-time insights without the need for preprocessing or data transformation."
+        [[params.projects.list.items]]
+        details = "Configured dynamic dashboards in Grafana to monitor and analyze key metrics and trends derived from the IoT sensor data."
+
+
+        [[params.projects.list]]
+        title = "Article Recommendation System (Nov 2021 - Apr 2022)"
+        meta = ""
+        tagline = "To build a recommendation system based on the interests and entities the user interacted with."
+        text = "Recommendation system, NLP, DOC2Vec, Word2vec"
+        [[params.projects.list.items]]
+        details = "Developed and implemented an advanced article recommendation system within jio health hub app, leveraging user interactions with various entities such as diseases, medicines,symptoms ..."
+        [[params.projects.list.items]]
+        details = "Implemented content filitering techniques to solve the cold start problem."
+        [[params.projects.list.items]]
+        details = "Implemented collaborative filtering techniques to analyze user behavior and preferences, identifying patterns and similarities to generate accurate recommendations."
+        [[params.projects.list.items]]
+        details = "Integrated natural language processing (NLP) techniques to extract key information from articles and user interactions, enhancing the relevance and quality of recommendations."
+        [[params.projects.list.items]]
+        details =  "Implemented algorithms and strategies to ensure diversity in recommendations, promoting exploration and discovery of new health-related topics."
+        [[params.projects.list.items]]
+        details =  "Utilized feedback loops and metrics to evaluate the performance of the recommendation system, fine-tuning algorithms and parameters for optimal results."
+
+        [[params.projects.list]]
+        title = "Entity Search service(Nov 2020 - April 2022)"
+        meta = ""
+        text= "elastic search, Fastapi, NER"
+        tagline = "To build a an api that can extract medical entities from free text and map them the appropriates entites in the DB."
+        [[params.projects.list.items]]
+        details = "Developed, deployed and maintained a Fastapi on top of elastic search which does NER (Named Entity Recognition)."
+        [[params.projects.list.items]]
+        details = "This system is used across the app anywhere there is an entity resolution required."
+        [[params.projects.list.items]]
+        details = "This API also support autosuggest, look ahead search functionalities"
+        [[params.projects.list.items]]
+        details = "Built a POC for scalable unsupervised learning based named entity recognition for semantic search usecase."
+
        
         [[params.projects.list]]
         title = "Item Master Data Management (Jan 2020 - Oct 2020)"
@@ -425,7 +479,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         details = "Programmed and used Arduino board to control servo motors, used Solidworks application for designing the links, performed structural analysis of Biped"
 
         [[params.projects.list]]
-        title = "Academic - Mech Rubik’s Cube Solver (May 09 - Sep 09)"
+        title = "Academic - Mech Rubik’s Cube Solver(May 09 - Sep 09)"
         meta = "certificate"
         url = "//home.iitj.ac.in/~harsha/bestproj.html"
         tagline = "we designed, engineered and assembled the working model of a machine, which replicates the three-hand motions through which RUBIK’S cubes are solved.               "
