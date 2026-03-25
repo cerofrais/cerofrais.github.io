@@ -21,7 +21,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
     [params.profile]
         enable = true
         name = "V Venkata Sri Harsha"
-        tagline = "EX Data Scientist at Jio|Ex Senior MLE at ExaWizards India|Founder of Ascent Intelligent Technologies"
+        tagline = "Full-Stack Platform Engineer | Ex Senior MLE at ExaWizards India | Ex Data Scientist at Jio"
         avatar = "avatar.jpg"
 
 
@@ -54,32 +54,36 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.skills.list]]
         title = "Technical"
         [[params.skills.list.items]]
-        details = "Python/Matlab"
+        details = "Python/TypeScript/JavaScript"
         [[params.skills.list.items]]
-        details = "Basic SQL, MongoDB"
+        details = "SQL, MongoDB, InfluxDB, PostgreSQL"
         [[params.skills.list.items]]
-        details = "Design and implement database structures"
+        details = "React/Next.js, FastAPI, Flask"
+        [[params.skills.list.items]]
+        details = "Kubernetes, Docker, CI/CD Pipelines"
+        [[params.skills.list.items]]
+        details = "Full-stack development (frontend + backend)"
         [[params.skills.list.items]]
         details = "Lead and deliver complex software systems"
 
         [[params.skills.list]]
-        title = "Software"
+        title = "Software & Cloud"
         [[params.skills.list.items]]
-        details = "Python Dev"
+        details = "Grafana, InfluxDB, ETL Pipelines"
+        [[params.skills.list.items]]
+        details = "Keycloak, OAuth, Apple Sign-In"
+        [[params.skills.list.items]]
+        details = "WebSockets, MQTT, gRPC, REST APIs"
+        [[params.skills.list.items]]
+        details = "AWS (EC2, Lambda, ECS, Kinesis, S3)"
+        [[params.skills.list.items]]
+        details = "Azure (DevOps, ML, App Services)"
+        [[params.skills.list.items]]
+        details = "Terraform, Helm, Azure Pipelines"
+        [[params.skills.list.items]]
+        details = "PyTorch/TensorFlow, Ollama, LLM Agents"
         [[params.skills.list.items]]
         details = "Scipy/Pandas/Matplotlib"
-        [[params.skills.list.items]]
-        details = "Pytorch/Tensorflow"
-        [[params.skills.list.items]]
-        details = "Flask Web Dev"
-        [[params.skills.list.items]]
-        details = "Azure Machine Learning"
-        [[params.skills.list.items]]
-        details = "Azure Devops"
-        [[params.skills.list.items]]
-        details = "AWS Cloud Services"
-        [[params.skills.list.items]]
-        details = "Sage Maker for MLOPS"
 
 
 
@@ -208,12 +212,34 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.summary]
         enable = true
-        text = "Engineer with 5+ years of experience as a data scientist / MLE looking to fuel my fervent passion for technology by developing next-generation, data-driven solutions to increase efficiency and accuracy of systems. Capable of working in highly challenging and demanding environments, utilizing my skills and knowledge to be the best of my abilities and contribute positively to the growth of the organization."
+        text = "Full-stack platform engineer with 8+ years of experience spanning data science, ML engineering, and end-to-end product development. Led platform engineering across UI, backend, ETL, CI/CD, and cloud infrastructure . Expert in building scalable systems from IoT data pipelines to web applications, with deep experience in Kubernetes, React/TypeScript, Python/FastAPI, AWS/Azure, and observability tools. Demonstrated ability to wear multiple hats—delivering features, hardening deployments, and building innovative tools like LLM-based debugging agents. Looking to fuel my fervent passion for technology by developing next-generation, data-driven solutions to increase efficiency and accuracy of systems."
 
 
 
     [params.experience]
         enable = true
+
+        [[params.experience.list]]
+        title = "Full-Stack Platform Engineer (IC)"
+        dates = "June 2023 - March 2026"
+        company = "Live 4est (Stealth Startup), Hyderabad"
+        tagline = "Led end-to-end product engineering across the 4est BMS platform spanning UI (React/TypeScript), backend APIs (Python/FastAPI), ETL pipelines, and deployment automation with 773+ production commits over ~3 years."
+        [[params.experience.list.items]]
+        details = "Built and evolved major BMS user interfaces for device control, workflow execution, fault visibility, USAM operations, monitoring dashboards, and tree-aware navigation/selection."
+        [[params.experience.list.items]]
+        details = "Delivered high-impact device operations features including bulk provisioning, state control, self-test flows, USAM inventory/grouping, hot-swap/update UX, and firmware pipeline hardening."
+        [[params.experience.list.items]]
+        details = "Implemented and expanded backend APIs in orchestrator and APIFE layers, including new endpoints, WebSocket integrations, and schema/message updates to support frontend workflows."
+        [[params.experience.list.items]]
+        details = "Set up and improved auth/security integrations including Keycloak-based frontend authentication with OAuth flows and token management."
+        [[params.experience.list.items]]
+        details = "Expanded observability and analytics by contributing InfluxDB/ETL integrations, Grafana dashboard configs, chart/query fixes, and telemetry modeling (door/lock state data flows)."
+        [[params.experience.list.items]]
+        details = "Strengthened deployment reliability through Kubernetes automation (helm, local CI/CD scripts), Azure VM/reverse-proxy scripts, and Azure DevOps pipeline optimization."
+        [[params.experience.list.items]]
+        details = "Developed an LLM-based debugger agent using Ollama framework that securely runs commands, parses logs, and identifies root causes—significantly reducing debugging time."
+        [[params.experience.list.items]]
+        details = "Improved engineering quality via test additions/fixes, lint/type cleanup, API contract alignment, and iterative refactors in heavily used code paths."
 
         [[params.experience.list]]
         title = "Senior Machine Learning Engineer"
@@ -301,6 +327,42 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.projects]
         enable = true
+
+        [[params.projects.list]]
+        title = "BMS Platform (June 2023 - March 2026)"
+        meta = "Live 4est"
+        tagline = "Led end-to-end development of a Building Management System platform handling device operations, workflow orchestration, monitoring, and user management."
+        text = "React, TypeScript, Python, FastAPI, Kubernetes, InfluxDB, Grafana, WebSockets, PostgreSQL, Azure DevOps, Keycloak, Helm"
+        [[params.projects.list.items]]
+        details = "Built and evolved BMS web frontends (React/TypeScript) for device control, workflow execution, USAM operations, fault management, and real-time monitoring dashboards."
+        [[params.projects.list.items]]
+        details = "Implemented backend APIs (Python/FastAPI) with orchestrator and APIFE layers, including WebSocket support for real-time device state updates and workflow execution."
+        [[params.projects.list.items]]
+        details = "Built ETL pipelines and observability stack with InfluxDB data ingestion, Grafana dashboards, and telemetry processing for door/lock states and environmental sensors."
+        [[params.projects.list.items]]
+        details = "Hardened firmware publishing pipeline (Azure DevOps) with manifest generation, version control, and deployment automation to ensure safe, repeatable releases."
+        [[params.projects.list.items]]
+        details = "Set up Kubernetes-based local development and deployment automation with Helm charts, environment config management, and CI/CD scripting."
+        [[params.projects.list.items]]
+        details = "Integrated Keycloak authentication for web frontend with proper OAuth flows, token management, and role-based access control."
+        [[params.projects.list.items]]
+        details = "Contributed 773+ production commits across UI, backend, infrastructure, and deployment automation over ~3 years."
+
+        [[params.projects.list]]
+        title = "Debugger Framework (January 2026 - March 2026)"
+        meta = "Live 4est"
+        tagline = "Developed an intelligent debugging agent using LLMs (Ollama framework) that can securely execute commands, parse system logs, and perform root-cause analysis."
+        text = "Python, Ollama, LLM Agents, Agentic Framework, Log Analysis, Shell Scripting"
+        [[params.projects.list.items]]
+        details = "Built an agentic framework running on local LLM (Ollama) that can understand natural language queries about system issues and take autonomous debugging actions."
+        [[params.projects.list.items]]
+        details = "Implemented secure command execution with sandboxing and permission controls to safely run diagnostic commands and gather system state."
+        [[params.projects.list.items]]
+        details = "Developed intelligent log parsing capabilities that can extract relevant error patterns, correlate events across services, and build causal chains."
+        [[params.projects.list.items]]
+        details = "Integrated with existing monitoring stack (Kubernetes logs, application logs, InfluxDB metrics) to provide comprehensive context for root-cause analysis."
+        [[params.projects.list.items]]
+        details = "Significantly reduced debugging time by automating common investigation workflows and providing actionable insights with suggested fixes."
 
         [[params.projects.list]]
         title = "Smart Camera System (July 2022 - May 2023)"
