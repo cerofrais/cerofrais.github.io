@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Harsha V</title>
-    <link>http://localhost:1313/public/</link>
+    <link>https://cerofrais.github.io/public/</link>
     <description>Recent content on Harsha V</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="http://localhost:1313/public/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://cerofrais.github.io/public/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
