@@ -21,7 +21,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
     [params.profile]
         enable = true
         name = "V Venkata Sri Harsha"
-        tagline = "Full-Stack Platform Engineer | Ex Senior MLE at ExaWizards India | Ex Data Scientist at Jio"
+        tagline = "Full-Stack Platform Engineer at Live4est | Ex Senior MLE at ExaWizards India | Ex Data Scientist at Jio"
         avatar = "avatar.jpg"
 
 
@@ -223,17 +223,17 @@ googleAnalytics = "UA-XXXXXXX-Y"
         title = "Full-Stack Platform Engineer (IC)"
         dates = "June 2023 - March 2026"
         company = "Live 4est (Stealth Startup), Hyderabad"
-        tagline = "Led end-to-end product engineering across the 4est BMS platform spanning UI (React/TypeScript), backend APIs (Python/FastAPI), ETL pipelines, and deployment automation with 773+ production commits over ~3 years."
+        tagline = "Led end-to-end product engineering across the 4est BMS platform spanning UI (React/TypeScript), backend APIs (Python/FastAPI), ETL pipelines, and deployment automation."
         [[params.experience.list.items]]
-        details = "Built and evolved major BMS user interfaces for device control, workflow execution, fault visibility, USAM operations, monitoring dashboards, and tree-aware navigation/selection."
+        details = "Built and evolved major BMS(Building Management System) user interfaces for device control, workflow execution, fault visibility, USAM(Microcontroller) operations, monitoring dashboards, and tree-aware navigation/selection."
         [[params.experience.list.items]]
         details = "Delivered high-impact device operations features including bulk provisioning, state control, self-test flows, USAM inventory/grouping, hot-swap/update UX, and firmware pipeline hardening."
         [[params.experience.list.items]]
-        details = "Implemented and expanded backend APIs in orchestrator and APIFE layers, including new endpoints, WebSocket integrations, and schema/message updates to support frontend workflows."
+        details = "Implemented and expanded backend APIs in orchestrator,  including new endpoints, WebSocket integrations, and schema/message updates to support frontend workflows."
         [[params.experience.list.items]]
         details = "Set up and improved auth/security integrations including Keycloak-based frontend authentication with OAuth flows and token management."
         [[params.experience.list.items]]
-        details = "Expanded observability and analytics by contributing InfluxDB/ETL integrations, Grafana dashboard configs, chart/query fixes, and telemetry modeling (door/lock state data flows)."
+        details = "Expanded observability and analytics by setting up ELK stack(elastic ,Logstash and kibana) and contributing InfluxDB/ETL integrations, Grafana dashboard configs, chart/query fixes, and telemetry modeling."
         [[params.experience.list.items]]
         details = "Strengthened deployment reliability through Kubernetes automation (helm, local CI/CD scripts), Azure VM/reverse-proxy scripts, and Azure DevOps pipeline optimization."
         [[params.experience.list.items]]
@@ -345,8 +345,6 @@ googleAnalytics = "UA-XXXXXXX-Y"
         details = "Set up Kubernetes-based local development and deployment automation with Helm charts, environment config management, and CI/CD scripting."
         [[params.projects.list.items]]
         details = "Integrated Keycloak authentication for web frontend with proper OAuth flows, token management, and role-based access control."
-        [[params.projects.list.items]]
-        details = "Contributed 773+ production commits across UI, backend, infrastructure, and deployment automation over ~3 years."
 
         [[params.projects.list]]
         title = "Debugger Framework (January 2026 - March 2026)"
